@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from "./components/Navbar";
+import Search from "./components/jobhunter/Search";
+import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
+    <Search />
   </React.StrictMode>,
   document.getElementById('root')
 );
